@@ -131,7 +131,7 @@ while running:
     # Проверка, не ударил ли моб игрока
     hits = pygame.sprite.spritecollide(player, mobs, False)
     if hits:
-        running = False   
+        running = True   
 
     # Рендеринг
     screen.fill(BLACK)
